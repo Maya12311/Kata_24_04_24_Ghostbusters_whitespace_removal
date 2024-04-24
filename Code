@@ -1,0 +1,22 @@
+public class Ghostbusters {
+  
+  public static String ghostBusters(String building) {
+    
+    String answer = ""; 
+    
+    for(int i = 0 ; i< building.length(); i++){
+      if(!building.contains(" ")){
+        answer = "You just wanted my autograph didn't you?";
+          break; 
+      }else{
+        if(building.charAt(i) >='A' && building.charAt(i) <='Z' |
+          building.charAt(i) >='a' && building.charAt(i) <='z'
+          ){
+          answer= answer +building.charAt(i);
+        }
+     
+    }}
+    return answer;
+    // get rid of ghosts!
+  }
+}
