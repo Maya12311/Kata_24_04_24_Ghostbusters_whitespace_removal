@@ -1,0 +1,1 @@
+# Kata_24_04_24_Ghostbusters_whitespace_removal
